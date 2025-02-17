@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./homepage.css";
 
-const API_KEY = "AIzaSyDos69joBisUFichbf_Ib6CJY2hK_nLw8w"; 
+const API_KEY = "yourapikey"; // Get your API key from Google Cloud Console 
 const BASE_URL = "https://www.googleapis.com/books/v1/volumes";
 const QUERY = "sports"; // Change this to any category
 
